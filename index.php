@@ -1,3 +1,19 @@
+<?php
+
+$postValue;
+
+if(isset($_POST['expression'])){
+    $postValue = $_POST['expression'];
+    echo $postValue;
+} else {
+    echo "There is a problem with the POST";
+}
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -7,12 +23,11 @@
 </head>
 
 <body>
-    <form>
-        <div id="background">
-            <!-- Main background -->
+    <div id="background">
+        <!-- Main background -->
 
-            <div id="main">
-
+        <div id="main">
+            <form method="post">
                 <input type="text" name="expression" id="result">
                 <div id="first-rows">
                     <button type="button" value="c" id="mod" class="btn-style operator opera-bg fall-back">%</button>
@@ -45,13 +60,13 @@
                 <div class="rows">
                     <button type="button" value="0" class="btn num-bg zero" id="delete">0</button>
                     <button type="button" value="." class="btn btn-style num-bg period fall-back">.</button>
-                    <button type="button" value="=" id="eqn-bg" class="btn eqn align">=</button>
+                    <button type="submit" value="=" id="eqn-bg" class="eqn align">=</button>
                 </div>
-
-            </div>
-
+            </form>
         </div>
-    </form>
+
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="/Calculator/scripts/scripts.js"></script>
