@@ -1,10 +1,18 @@
+<?php
+
+session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+
 <head>
     <title>Calculator</title>
     <link rel="stylesheet" href="/Calculator/styles/style.css">
 </head>
 
 <body>
-    <form action="expressionEvaluation.php" method="GET">
+    <form>
         <div id="background">
             <!-- Main background -->
 
@@ -49,10 +57,10 @@
 
         </div>
     </form>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="/Calculator/scripts/scripts.js"></script>
 
-
 </body>
+
+</html>

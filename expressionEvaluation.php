@@ -1,5 +1,5 @@
-<?php
+<!-- <?php
 
-$expression = $_GET["expression"];
+// $expression = $_GET["expression"];
 
-echo $expression;
+// echo $expression; -->
