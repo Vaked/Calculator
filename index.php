@@ -1,15 +1,14 @@
 <?php
 
-$postValue;
+$expression = $_POST['expression'];
 
-if(isset($_POST['expression'])){
-    $postValue = $_POST['expression'];
-    echo $postValue;
-} else {
-    echo "There is a problem with the POST";
+function expressionCheckRegex($expression)
+{
+    $parts = preg_split('((\d+|\+|-|\(|\)|\*|/)|\s+)',$expression, null, PREG_SPLIT_NO_EMPTY | PREG_SPLIT_DELIM_CAPTURE);
+    $parts = array_map('trim',$parts);
+    return $parts;
 }
-
-
+echo $expression;
 
 ?>
 
@@ -23,11 +22,12 @@ if(isset($_POST['expression'])){
 </head>
 
 <body>
+<form method="post">
     <div id="background">
         <!-- Main background -->
 
         <div id="main">
-            <form method="post">
+           
                 <input type="text" name="expression" id="result">
                 <div id="first-rows">
                     <button type="button" value="c" id="mod" class="btn-style operator opera-bg fall-back">%</button>
@@ -62,11 +62,11 @@ if(isset($_POST['expression'])){
                     <button type="button" value="." class="btn btn-style num-bg period fall-back">.</button>
                     <button type="submit" value="=" id="eqn-bg" class="eqn align">=</button>
                 </div>
-            </form>
+          
         </div>
 
     </div>
-
+    </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="/Calculator/scripts/scripts.js"></script>

@@ -6,4 +6,3 @@ $(document).ready(function buttonPress() {
         $("input:text").val(temp + "" + clickedButton);
     });
 });
-
