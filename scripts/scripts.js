@@ -1,13 +1,6 @@
 var buttonPress = $(function () {
     $(".btn").click(function () {
         var clickedButton = $(this).val();
-        return clickedButton;
+        $("input:text").val(clickedButton);
     });
 });
-
-
-// $(document).ready(function() {
-//     $(".btn").click(function(){
-//         $("input:text").val(buttonPress.clickedButton.val());
-//     })
-// })

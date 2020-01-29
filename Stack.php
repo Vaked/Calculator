@@ -41,3 +41,4 @@ class Stack
         return empty($this->stack);
     }
 }
+
