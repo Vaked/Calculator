@@ -5,11 +5,11 @@ require_once("Stack.php");
 
 $expression = $_POST['expression'];
 
+
 if(!checkParenthesis($expression)){
     echo ('Syntax error, brackets are incorrect');
     exit;
 }
-
 $tokens = tokenize($expression);
 
 function populateOperatorStack($tokens)
@@ -41,7 +41,6 @@ function populateOperandStack($tokens)
 
 $operators = populateOperatorStack($tokens);
 $operands = populateOperandStack($tokens);
-
 
 
 function tokenize($string)
@@ -93,7 +92,7 @@ function checkParenthesis($expression)
             $stack->push($i);
         } elseif ($expression[$i] == ')') {
 
-            if (!$stack->isEmpty()) {
+            if ($stack->isEmpty()) {
 
                 $areBracketsCorrect = false;
                 break;

@@ -14,7 +14,7 @@ require_once("calculation.php");
 </head>
 
 <body>
-    <form method="post">
+    <form action="" method="post">
         <div id="background">
             <!-- Main background -->
 
@@ -59,9 +59,9 @@ require_once("calculation.php");
 
         </div>
     </form>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
 
-    <script src="scripts/scripts.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="scripts/scripts.js"></script>
 
 </body>
 

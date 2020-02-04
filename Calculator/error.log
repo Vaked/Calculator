@@ -523,3 +523,31 @@
 [Tue Feb 04 13:01:38.658333 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
 [Tue Feb 04 13:01:38.659738 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
 [Tue Feb 04 13:01:38.663452 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 13:25:07.218907 2020] [php7:notice] [pid 30116] [client 192.168.33.1:55536] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 6
+[Tue Feb 04 13:25:07.219130 2020] [php7:notice] [pid 30116] [client 192.168.33.1:55536] PHP Stack trace:
+[Tue Feb 04 13:25:07.219225 2020] [php7:notice] [pid 30116] [client 192.168.33.1:55536] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 13:25:07.219369 2020] [php7:notice] [pid 30116] [client 192.168.33.1:55536] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 14:14:04.845470 2020] [php7:notice] [pid 30108] [client 192.168.33.1:57129] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 6
+[Tue Feb 04 14:14:04.845727 2020] [php7:notice] [pid 30108] [client 192.168.33.1:57129] PHP Stack trace:
+[Tue Feb 04 14:14:04.845904 2020] [php7:notice] [pid 30108] [client 192.168.33.1:57129] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 14:14:04.846080 2020] [php7:notice] [pid 30108] [client 192.168.33.1:57129] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 14:17:11.755510 2020] [php7:notice] [pid 30107] [client 192.168.33.1:57154] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 6
+[Tue Feb 04 14:17:11.755707 2020] [php7:notice] [pid 30107] [client 192.168.33.1:57154] PHP Stack trace:
+[Tue Feb 04 14:17:11.755863 2020] [php7:notice] [pid 30107] [client 192.168.33.1:57154] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 14:17:11.756016 2020] [php7:notice] [pid 30107] [client 192.168.33.1:57154] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 14:17:54.691732 2020] [php7:notice] [pid 30110] [client 192.168.33.1:57166] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 6
+[Tue Feb 04 14:17:54.692042 2020] [php7:notice] [pid 30110] [client 192.168.33.1:57166] PHP Stack trace:
+[Tue Feb 04 14:17:54.692304 2020] [php7:notice] [pid 30110] [client 192.168.33.1:57166] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 14:17:54.692523 2020] [php7:notice] [pid 30110] [client 192.168.33.1:57166] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 14:17:58.530544 2020] [php7:notice] [pid 30110] [client 192.168.33.1:57166] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 6
+[Tue Feb 04 14:17:58.530804 2020] [php7:notice] [pid 30110] [client 192.168.33.1:57166] PHP Stack trace:
+[Tue Feb 04 14:17:58.531085 2020] [php7:notice] [pid 30110] [client 192.168.33.1:57166] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 14:17:58.531343 2020] [php7:notice] [pid 30110] [client 192.168.33.1:57166] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 14:27:14.572190 2020] [php7:notice] [pid 30109] [client 192.168.33.1:57317] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 6
+[Tue Feb 04 14:27:14.572516 2020] [php7:notice] [pid 30109] [client 192.168.33.1:57317] PHP Stack trace:
+[Tue Feb 04 14:27:14.572815 2020] [php7:notice] [pid 30109] [client 192.168.33.1:57317] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 14:27:14.573084 2020] [php7:notice] [pid 30109] [client 192.168.33.1:57317] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 14:27:37.844191 2020] [php7:notice] [pid 30116] [client 192.168.33.1:57322] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 6
+[Tue Feb 04 14:27:37.844520 2020] [php7:notice] [pid 30116] [client 192.168.33.1:57322] PHP Stack trace:
+[Tue Feb 04 14:27:37.844848 2020] [php7:notice] [pid 30116] [client 192.168.33.1:57322] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 14:27:37.845137 2020] [php7:notice] [pid 30116] [client 192.168.33.1:57322] PHP   2. require_once() /vagrant/Calculator/index.php:3
