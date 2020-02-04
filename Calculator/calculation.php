@@ -4,15 +4,13 @@ require_once("index.php");
 require_once("Stack.php");
 
 $expression = $_POST['expression'];
-var_dump($expression);
 
 if(!checkParenthesis($expression)){
     echo ('Syntax error, brackets are incorrect');
     exit;
 }
-$tokens = tokenize($expression);
 
-var_dump($tokens);
+$tokens = tokenize($expression);
 
 function populateOperatorStack($tokens)
 {
@@ -43,22 +41,6 @@ function populateOperandStack($tokens)
 
 $operators = populateOperatorStack($tokens);
 $operands = populateOperandStack($tokens);
-
-function calculate($tokens)
-{
-       
-
-
-
-
-
-
-
-
-
-    
-    
-}
 
 
 
@@ -111,7 +93,7 @@ function checkParenthesis($expression)
             $stack->push($i);
         } elseif ($expression[$i] == ')') {
 
-            if ($stack->isEmpty() == true) {
+            if (!$stack->isEmpty()) {
 
                 $areBracketsCorrect = false;
                 break;
@@ -120,7 +102,7 @@ function checkParenthesis($expression)
         }
     }
 
-    if ($stack->isEmpty() == false) {
+    if (!$stack->isEmpty()) {
         $areBracketsCorrect = false;
     }
 
