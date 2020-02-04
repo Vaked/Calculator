@@ -1,0 +1,525 @@
+[Mon Feb 03 15:12:16.273230 2020] [php7:notice] [pid 27631] [client 192.168.33.1:52028] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 22
+[Mon Feb 03 15:12:57.945236 2020] [php7:notice] [pid 27629] [client 192.168.33.1:52039] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 22
+[Mon Feb 03 19:37:43.000969 2020] [php7:notice] [pid 27631] [client 192.168.33.1:63768] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 22
+[Mon Feb 03 19:40:44.954522 2020] [php7:notice] [pid 27629] [client 192.168.33.1:63797] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 22
+[Mon Feb 03 19:40:48.666991 2020] [php7:notice] [pid 27629] [client 192.168.33.1:63797] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 22
+[Mon Feb 03 19:41:09.407164 2020] [php7:notice] [pid 27628] [client 192.168.33.1:63811] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 22
+[Mon Feb 03 19:41:38.129226 2020] [php7:notice] [pid 27637] [client 192.168.33.1:63834] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 22
+[Mon Feb 03 20:42:05.545779 2020] [php7:notice] [pid 27638] [client 192.168.33.1:50714] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 22
+[Mon Feb 03 20:43:51.952610 2020] [php7:notice] [pid 27631] [client 192.168.33.1:50757] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 22
+[Mon Feb 03 20:44:50.995647 2020] [php7:notice] [pid 27628] [client 192.168.33.1:50774] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 22
+[Tue Feb 04 07:29:26.717940 2020] [php7:notice] [pid 27630] [client 192.168.33.1:61926] PHP Notice:  Undefined variable: outputQueue in /vagrant/Calculator/calculation.php on line 170, referer: http://calculator.develop/
+[Tue Feb 04 07:29:26.718084 2020] [php7:warn] [pid 27630] [client 192.168.33.1:61926] PHP Warning:  strlen() expects parameter 1 to be string, array given in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 07:29:26.718143 2020] [php7:notice] [pid 27630] [client 192.168.33.1:61926] PHP Notice:  Undefined variable: postfix in /vagrant/Calculator/calculation.php on line 60, referer: http://calculator.develop/
+[Tue Feb 04 07:30:15.058039 2020] [php7:notice] [pid 27628] [client 192.168.33.1:61935] PHP Notice:  Undefined variable: outputQueue in /vagrant/Calculator/calculation.php on line 170, referer: http://calculator.develop/
+[Tue Feb 04 07:30:15.058136 2020] [php7:warn] [pid 27628] [client 192.168.33.1:61935] PHP Warning:  strlen() expects parameter 1 to be string, array given in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 07:30:15.058217 2020] [php7:notice] [pid 27628] [client 192.168.33.1:61935] PHP Notice:  Undefined variable: postfix in /vagrant/Calculator/calculation.php on line 60, referer: http://calculator.develop/
+[Tue Feb 04 07:31:22.415905 2020] [php7:warn] [pid 27637] [client 192.168.33.1:62051] PHP Warning:  strlen() expects parameter 1 to be string, array given in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 07:31:22.416086 2020] [php7:notice] [pid 27637] [client 192.168.33.1:62051] PHP Notice:  Undefined variable: postfix in /vagrant/Calculator/calculation.php on line 60, referer: http://calculator.develop/
+[Tue Feb 04 07:31:24.250371 2020] [php7:warn] [pid 27637] [client 192.168.33.1:62051] PHP Warning:  strlen() expects parameter 1 to be string, array given in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 07:31:24.250504 2020] [php7:notice] [pid 27637] [client 192.168.33.1:62051] PHP Notice:  Undefined variable: postfix in /vagrant/Calculator/calculation.php on line 60, referer: http://calculator.develop/
+[Tue Feb 04 07:31:50.227815 2020] [php7:warn] [pid 27629] [client 192.168.33.1:62059] PHP Warning:  strlen() expects parameter 1 to be string, array given in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 07:31:50.228020 2020] [php7:notice] [pid 27629] [client 192.168.33.1:62059] PHP Notice:  Undefined variable: postfix in /vagrant/Calculator/calculation.php on line 60, referer: http://calculator.develop/
+[Tue Feb 04 07:31:54.384874 2020] [php7:warn] [pid 27629] [client 192.168.33.1:62059] PHP Warning:  strlen() expects parameter 1 to be string, array given in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 07:31:54.384950 2020] [php7:notice] [pid 27629] [client 192.168.33.1:62059] PHP Notice:  Undefined variable: postfix in /vagrant/Calculator/calculation.php on line 60, referer: http://calculator.develop/
+[Tue Feb 04 07:32:34.328456 2020] [php7:warn] [pid 27630] [client 192.168.33.1:62075] PHP Warning:  strlen() expects parameter 1 to be string, array given in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 07:32:34.328618 2020] [php7:notice] [pid 27630] [client 192.168.33.1:62075] PHP Notice:  Undefined variable: postfix in /vagrant/Calculator/calculation.php on line 60, referer: http://calculator.develop/
+[Tue Feb 04 07:32:41.543704 2020] [php7:warn] [pid 27636] [client 192.168.33.1:62076] PHP Warning:  strlen() expects parameter 1 to be string, array given in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 07:32:41.543924 2020] [php7:notice] [pid 27636] [client 192.168.33.1:62076] PHP Notice:  Undefined variable: postfix in /vagrant/Calculator/calculation.php on line 60, referer: http://calculator.develop/
+[Tue Feb 04 07:32:42.513194 2020] [php7:warn] [pid 27636] [client 192.168.33.1:62076] PHP Warning:  strlen() expects parameter 1 to be string, array given in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 07:32:42.513344 2020] [php7:notice] [pid 27636] [client 192.168.33.1:62076] PHP Notice:  Undefined variable: postfix in /vagrant/Calculator/calculation.php on line 60, referer: http://calculator.develop/
+[Tue Feb 04 07:33:12.720711 2020] [php7:warn] [pid 27638] [client 192.168.33.1:62115] PHP Warning:  strlen() expects parameter 1 to be string, array given in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 07:33:12.720861 2020] [php7:notice] [pid 27638] [client 192.168.33.1:62115] PHP Notice:  Undefined variable: postfix in /vagrant/Calculator/calculation.php on line 60, referer: http://calculator.develop/
+[Tue Feb 04 12:06:49.534534 2020] [php7:notice] [pid 27632] [client 192.168.33.1:56075] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:06:49.534750 2020] [php7:warn] [pid 27632] [client 192.168.33.1:56075] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 54, referer: http://calculator.develop/
+[Tue Feb 04 12:06:49.534862 2020] [php7:notice] [pid 27632] [client 192.168.33.1:56075] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:06:49.534909 2020] [php7:warn] [pid 27632] [client 192.168.33.1:56075] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 67, referer: http://calculator.develop/
+[Tue Feb 04 12:06:49.535029 2020] [php7:error] [pid 27632] [client 192.168.33.1:56075] PHP Fatal error:  Uncaught Error: Call to undefined function calculate() in /vagrant/Calculator/calculation.php:76\nStack trace:\n#0 /vagrant/Calculator/index.php(3): require_once()\n#1 {main}\n  thrown in /vagrant/Calculator/calculation.php on line 76, referer: http://calculator.develop/
+[Tue Feb 04 12:06:56.375200 2020] [php7:notice] [pid 27629] [client 192.168.33.1:56076] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:06:56.375339 2020] [php7:warn] [pid 27629] [client 192.168.33.1:56076] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:06:56.375451 2020] [php7:notice] [pid 27629] [client 192.168.33.1:56076] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:06:56.375551 2020] [php7:warn] [pid 27629] [client 192.168.33.1:56076] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:06:56.375754 2020] [php7:error] [pid 27629] [client 192.168.33.1:56076] PHP Fatal error:  Uncaught Error: Call to undefined function calculate() in /vagrant/Calculator/calculation.php:46\nStack trace:\n#0 /vagrant/Calculator/index.php(3): require_once()\n#1 {main}\n  thrown in /vagrant/Calculator/calculation.php on line 46, referer: http://calculator.develop/
+[Tue Feb 04 12:07:19.857698 2020] [php7:notice] [pid 27630] [client 192.168.33.1:56129] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6
+[Tue Feb 04 12:07:19.857851 2020] [php7:warn] [pid 27630] [client 192.168.33.1:56129] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24
+[Tue Feb 04 12:07:19.857984 2020] [php7:notice] [pid 27630] [client 192.168.33.1:56129] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7
+[Tue Feb 04 12:07:19.858120 2020] [php7:warn] [pid 27630] [client 192.168.33.1:56129] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37
+[Tue Feb 04 12:07:19.858185 2020] [php7:notice] [pid 27630] [client 192.168.33.1:56129] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 9
+[Tue Feb 04 12:07:25.986563 2020] [php7:notice] [pid 27636] [client 192.168.33.1:56130] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:07:25.986694 2020] [php7:warn] [pid 27636] [client 192.168.33.1:56130] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:07:25.986822 2020] [php7:notice] [pid 27636] [client 192.168.33.1:56130] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:07:25.986964 2020] [php7:warn] [pid 27636] [client 192.168.33.1:56130] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:17:09.853001 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6
+[Tue Feb 04 12:17:09.853258 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP Stack trace:
+[Tue Feb 04 12:17:09.853431 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:17:09.853596 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:17:09.853784 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24
+[Tue Feb 04 12:17:09.853944 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP Stack trace:
+[Tue Feb 04 12:17:09.854107 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:17:09.854272 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:17:09.854434 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP   3. populateOperatorStack() /vagrant/Calculator/calculation.php:6
+[Tue Feb 04 12:17:09.854676 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7
+[Tue Feb 04 12:17:09.854824 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP Stack trace:
+[Tue Feb 04 12:17:09.854964 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:17:09.855103 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:17:09.855241 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37
+[Tue Feb 04 12:17:09.855355 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP Stack trace:
+[Tue Feb 04 12:17:09.855476 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:17:09.855606 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:17:09.855732 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP   3. populateOperandStack() /vagrant/Calculator/calculation.php:7
+[Tue Feb 04 12:17:09.855866 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 9
+[Tue Feb 04 12:17:09.855984 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP Stack trace:
+[Tue Feb 04 12:17:09.856056 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:17:09.856204 2020] [php7:notice] [pid 29897] [client 192.168.33.1:51878] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:17:36.129668 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:17:36.129831 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:17:36.129958 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:17:36.130055 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.800776 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.800999 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.801232 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.801391 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.801623 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.801967 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.802150 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.802253 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.802448 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.802820 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.803057 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.803277 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.803582 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:18:40.803894 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:18:45.193155 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:18:45.193289 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:18:45.193390 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:18:45.193489 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:18:50.270591 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:18:50.270752 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:18:50.270912 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:18:50.271012 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.809004 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.809188 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.809320 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.809441 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.809587 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.809572 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.809880 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.809745 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.810118 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.809994 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.810355 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.810237 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.810586 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.810470 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.810893 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.810945 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.810722 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.811100 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.811023 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.811249 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.811174 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.811451 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.811376 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.811545 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.811501 2020] [php7:notice] [pid 29894] [client 192.168.33.1:51907] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.811588 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.812241 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:19:15.812350 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:19:19.133710 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:19:19.133851 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:19:19.133996 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:19:19.134101 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.506338 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.506532 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.506678 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.506784 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.506921 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.507114 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.507285 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.507370 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.507516 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.507726 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.507819 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.507957 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.508046 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:19:43.508170 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:19:47.735416 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:19:47.735633 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:19:47.735768 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:19:47.735883 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:20:32.841102 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6
+[Tue Feb 04 12:20:32.841317 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP Stack trace:
+[Tue Feb 04 12:20:32.841440 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:20:32.841557 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:20:36.056088 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.056260 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.056386 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.056727 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.056859 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.057016 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.057130 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.057211 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.057310 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.057477 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.057578 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.057643 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.057738 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:20:36.057867 2020] [php7:notice] [pid 29896] [client 192.168.33.1:51966] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:20:39.722374 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6
+[Tue Feb 04 12:20:39.722495 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP Stack trace:
+[Tue Feb 04 12:20:39.722607 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:20:39.722711 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:21:11.420317 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24
+[Tue Feb 04 12:21:11.420565 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP Stack trace:
+[Tue Feb 04 12:21:11.420753 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:21:11.420930 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:21:11.421094 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6
+[Tue Feb 04 12:21:11.421349 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7
+[Tue Feb 04 12:21:11.421470 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP Stack trace:
+[Tue Feb 04 12:21:11.421640 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:21:11.421814 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:21:11.422083 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37
+[Tue Feb 04 12:21:11.422202 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP Stack trace:
+[Tue Feb 04 12:21:11.422368 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:21:11.422528 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:21:11.422694 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7
+[Tue Feb 04 12:21:11.422894 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 9
+[Tue Feb 04 12:21:11.423025 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP Stack trace:
+[Tue Feb 04 12:21:11.423181 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:21:11.423352 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52051] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:21:18.314887 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6
+[Tue Feb 04 12:21:18.315145 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Stack trace:
+[Tue Feb 04 12:21:18.315350 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:21:18.315533 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:21:18.315773 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24
+[Tue Feb 04 12:21:18.315959 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Stack trace:
+[Tue Feb 04 12:21:18.316153 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:21:18.316346 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:21:18.316540 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   3. populateOperatorStack() /vagrant/Calculator/calculation.php:6
+[Tue Feb 04 12:21:18.316772 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7
+[Tue Feb 04 12:21:18.316955 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Stack trace:
+[Tue Feb 04 12:21:18.317120 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:21:18.317296 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:21:18.317448 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37
+[Tue Feb 04 12:21:18.317647 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Stack trace:
+[Tue Feb 04 12:21:18.317839 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:21:18.318018 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:21:18.318243 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   3. populateOperandStack() /vagrant/Calculator/calculation.php:7
+[Tue Feb 04 12:21:18.318459 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Notice:  Undefined index: expression in /vagrant/Calculator/calculation.php on line 9
+[Tue Feb 04 12:21:18.318701 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Stack trace:
+[Tue Feb 04 12:21:18.318864 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   1. {main}() /vagrant/Calculator/index.php:0
+[Tue Feb 04 12:21:18.319025 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   2. require_once() /vagrant/Calculator/index.php:3
+[Tue Feb 04 12:21:21.006874 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.007130 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.007360 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.007571 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.007803 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.007990 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.008155 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.008334 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.008536 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   3. populateOperatorStack() /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.008723 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.008900 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.009090 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.009272 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.009414 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.009568 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.009770 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.009921 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:21:21.010063 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52089] PHP   3. populateOperandStack() /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:22:24.624648 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:22:24.624813 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:22:24.624940 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:22:24.625041 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.095643 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.095811 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.095931 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.096044 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.096158 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.096277 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.096397 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.096518 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.096615 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.096815 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.096944 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.097013 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.097127 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:22:30.097246 2020] [php7:notice] [pid 29904] [client 192.168.33.1:52144] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:22:42.735109 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:22:42.735251 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:22:42.735358 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:22:42.735467 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:22:45.275264 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:22:45.275417 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:22:45.275544 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:22:45.275599 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.432200 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.432383 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.432511 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.432633 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.432808 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.432793 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.433099 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.432971 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.433339 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.433221 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.433554 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.433429 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.433790 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.433672 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.434040 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.433931 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.434212 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.434132 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.434348 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.434255 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.434495 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.434415 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.434693 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.434569 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52163] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.434769 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.435459 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.435503 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:29:51.435544 2020] [php7:notice] [pid 29905] [client 192.168.33.1:52164] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:30:03.594323 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:30:03.594479 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:30:03.594609 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:30:03.594743 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:32:49.900445 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:32:49.900606 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:32:49.900734 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:32:49.900855 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.479910 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.480099 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.480275 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.480357 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.480320 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.480611 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.480467 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.480939 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.480770 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.481182 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.481070 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.481393 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.481284 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.481530 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.481440 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.481844 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.481668 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.482046 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.481945 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.482302 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.482174 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.482533 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.482411 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.482742 2020] [php7:notice] [pid 29895] [client 192.168.33.1:52590] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.482635 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.483489 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.483570 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:33:24.483648 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:33:27.994920 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:33:27.995071 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:33:27.995207 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:33:27.995331 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.172865 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.173095 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.173264 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.173376 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.173495 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.173648 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.173790 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.173893 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.173985 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.174169 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.174336 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.174435 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.174532 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:33:45.174619 2020] [php7:notice] [pid 29894] [client 192.168.33.1:52709] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:33:54.445669 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:33:54.445804 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:33:54.445908 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:33:54.446007 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.572496 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.572976 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.573209 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.573317 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.573419 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.573618 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.573722 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.573794 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.573845 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.573965 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.574063 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.574121 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.574196 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:35:00.574274 2020] [php7:notice] [pid 29896] [client 192.168.33.1:52772] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:35:07.091054 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:35:07.091159 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:35:07.091214 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:35:07.091260 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.664842 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.665103 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.665308 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.665508 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.665731 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.666027 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.666250 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.666446 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.666637 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.666898 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.667129 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.667315 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.667490 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:38:10.667607 2020] [php7:notice] [pid 29893] [client 192.168.33.1:52829] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:40:35.409010 2020] [php7:notice] [pid 29895] [client 192.168.33.1:53108] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:40:35.409165 2020] [php7:notice] [pid 29895] [client 192.168.33.1:53108] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:40:35.409300 2020] [php7:notice] [pid 29895] [client 192.168.33.1:53108] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:40:35.409427 2020] [php7:notice] [pid 29895] [client 192.168.33.1:53108] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:45:49.909531 2020] [php7:notice] [pid 29897] [client 192.168.33.1:53350] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:45:49.909682 2020] [php7:notice] [pid 29897] [client 192.168.33.1:53350] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:45:49.909810 2020] [php7:notice] [pid 29897] [client 192.168.33.1:53350] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:45:49.909939 2020] [php7:notice] [pid 29897] [client 192.168.33.1:53350] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:49:02.246669 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:49:02.246849 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:49:02.246983 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:49:02.247101 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.376638 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.376855 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.377009 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.377149 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.377293 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.377500 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.377678 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.377825 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.377975 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.378172 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.378301 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.378418 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.378524 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:49:19.378676 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.202956 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.203151 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.203308 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.203468 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.203639 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.203795 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.203888 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.204046 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.204280 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   3. populateOperatorStack() /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.204447 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.204598 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.204756 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.204834 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.205035 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.205166 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.205291 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.205415 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:49:24.205537 2020] [php7:notice] [pid 30066] [client 192.168.33.1:53511] PHP   3. populateOperandStack() /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.169134 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.169600 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.169805 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.170014 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.170288 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.170425 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.170525 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.170613 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.170817 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   3. populateOperatorStack() /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.170991 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.171073 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.171145 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.171398 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.171601 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.171795 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.171982 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.172193 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:51:12.172411 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   3. populateOperandStack() /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:51:17.246791 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:51:17.246924 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:51:17.247036 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:51:17.247081 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.064927 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.065100 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.065223 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.065271 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.065323 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.065454 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.065599 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.065710 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.065809 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.065937 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.066040 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.066152 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.066250 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:51:45.066382 2020] [php7:notice] [pid 30108] [client 192.168.33.1:53617] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 12:53:22.086353 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:53:22.086526 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:53:22.086643 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:53:22.086765 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:54:07.998939 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:54:07.999119 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:54:07.999258 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:54:07.999382 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:54:34.318549 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:54:34.318682 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:54:34.318792 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:54:34.318881 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 12:55:03.208239 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 6, referer: http://calculator.develop/
+[Tue Feb 04 12:55:03.208353 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 12:55:03.208473 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 12:55:03.208567 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.646459 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.646950 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.647346 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.647283 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.648270 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.647452 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.649128 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.647798 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.649708 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.647964 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 24, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.650265 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.648688 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.650728 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.649426 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.651145 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.650020 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.651869 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.650505 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.652386 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.650934 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.653598 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.651488 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.654022 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.652063 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.654351 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.652911 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP   3. populateOperatorStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:6, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.654684 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP Notice:  Undefined variable: tokens in /vagrant/Calculator/calculation.php on line 7, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.653837 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.655052 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.654216 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.655357 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.654465 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.655848 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.654898 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.656114 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.655176 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.656569 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.655625 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.656834 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.655947 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.657154 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.656280 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.657515 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/Calculator/calculation.php on line 37, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.656685 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.657865 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.656997 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.658166 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.657305 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.658403 2020] [php7:notice] [pid 30111] [client 192.168.33.1:53769] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.657699 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP Stack trace:, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.659569 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP   1. {main}() /vagrant/Calculator/index.php:0, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.658012 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.659902 2020] [php7:notice] [pid 30110] [client 192.168.33.1:53728] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.658333 2020] [php7:notice] [pid 30109] [client 192.168.33.1:53796] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.659738 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP   2. require_once() /vagrant/Calculator/index.php:3, referer: http://calculator.develop/
+[Tue Feb 04 13:01:38.663452 2020] [php7:notice] [pid 30117] [client 192.168.33.1:53824] PHP   3. populateOperandStack($tokens = *uninitialized*) /vagrant/Calculator/calculation.php:7, referer: http://calculator.develop/
