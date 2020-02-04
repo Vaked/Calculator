@@ -37,18 +37,25 @@ function populateOperandStack($tokens)
     return $operators;
 }
 
-function calculate($tokens)
-{
-    foreach($tokens as $token)
-    {
-        
-    }
-}
-// calculate($tokens);
-
 $operators = populateOperatorStack($tokens);
 $operands = populateOperandStack($tokens);
 
+function calculate($tokens)
+{
+  $firstNumber = $tokens[0];
+  $operator = $tokens[1];
+  $secondNumber = $tokens[2];
+
+  $result = applyOperator($firstNumber, $operator, $secondNumber);
+
+  return $result;
+}
+
+$_POST['expression'] = calculate($tokens);
+
+if(isset($_POST)){
+    var_dump($_POST);
+};
 
 function tokenize($string)
 {
@@ -68,7 +75,7 @@ function precedence($char)
     }
 }
 
-function applyOperator($firstNumber, $secondNumber, $operator)
+function applyOperator($firstNumber,$operator, $secondNumber)
 {
     switch ($operator):
         case '+':
