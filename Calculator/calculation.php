@@ -37,6 +37,13 @@ function populateOperandStack($tokens)
     return $operators;
 }
 
+function calculate($tokens)
+{
+    foreach($tokens as $token)
+    {
+        
+    }
+}
 // calculate($tokens);
 
 $operators = populateOperatorStack($tokens);
