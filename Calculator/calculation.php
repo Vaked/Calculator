@@ -6,56 +6,87 @@ require_once("Stack.php");
 $expression = $_POST['expression'];
 
 
-if(!checkParenthesis($expression)){
+if (!checkParenthesis($expression)) {
     echo ('Syntax error, brackets are incorrect');
     exit;
 }
+
 $tokens = tokenize($expression);
 
-function populateOperatorStack($tokens)
+function isOperator($token)
 {
-    $operands = new Stack();
-    foreach($tokens as $token)
-    {
-        if(is_numeric($token)){
-            $operands->push($token);
-        }
-    }
-    return $operands;
+    switch ($token):
+        case '+':
+            return true;
+            break;
+        case '-':
+            return true;
+            break;
+        case '*':
+            return true;
+            break;
+        case '/':
+            return true;
+            break;
+        default:
+            return false;
+    endswitch;
 }
-
-function populateOperandStack($tokens)
-{
-
-    $operators = new Stack();
-    foreach($tokens as $token)
-    {
-        if(!is_numeric($token)){
-            $operators->push($token);
-        }
-    }
-    return $operators;
-}
-
-$operators = populateOperatorStack($tokens);
-$operands = populateOperandStack($tokens);
 
 function calculate($tokens)
 {
-  $firstNumber = $tokens[0];
-  $operator = $tokens[1];
-  $secondNumber = $tokens[2];
 
-  $result = applyOperator($firstNumber, $operator, $secondNumber);
+    $firstNumber = $tokens[0];
+    $operator = $tokens[1];
+    $secondNumber = $tokens[2];
 
-  return $result;
+    $result = applyOperator($firstNumber, $operator, $secondNumber);
+
+    return $result;
 }
 
-$_POST['expression'] = calculate($tokens);
+function infixToPrefix($tokens)
+{
+    $result = "";
+    $operatorStack = new SplStack();
 
-if(isset($_POST)){
-    var_dump($_POST);
-};
+    foreach ($tokens as $token) {
+        if (is_numeric($token)) {
+            $result .= strval($token);
+        } elseif ($token == '(') {
+            $operatorStack->push($token);
+        } elseif ($token == ')') {
+            while ($operatorStack->count() > 0 && $operatorStack->top() != '(') {
+                $result .= strval($operatorStack->pop());
+            }
+            if ($operatorStack->count() > 0 && $operatorStack->top() != '(') {
+                return "Syntax error, Invalid expression";
+            } else {
+                $operatorStack->pop();
+            }
+        } else {
+            while ($operatorStack->count() > 0 && precedence($token) <= precedence($operatorStack->top())) {
+                $result .= strval($operatorStack->pop());
+            }
+            $operatorStack->push($token);
+        }
+    }
+
+    while ($operatorStack->count() > 0) {
+        $result .= strval($operatorStack->pop());
+    }
+    return $result;
+}
+
+$prefix = infixToPrefix($tokens);
+
+function calculatePostfix($tokens)
+{
+    foreach($tokens as $token)
+    {
+        
+    }
+}
 
 function tokenize($string)
 {
@@ -75,7 +106,7 @@ function precedence($char)
     }
 }
 
-function applyOperator($firstNumber,$operator, $secondNumber)
+function applyOperator($firstNumber, $operator, $secondNumber)
 {
     switch ($operator):
         case '+':
