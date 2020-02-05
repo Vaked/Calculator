@@ -78,7 +78,7 @@ function infixToPostfix($tokens)
     return $result;
 }
 
-$postfix = infixToPostfix($tokens);
+$postfix = tokenize(infixToPostfix($tokens));
 
 print_r($postfix);
 
