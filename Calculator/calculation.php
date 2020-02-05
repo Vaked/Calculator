@@ -52,12 +52,12 @@ function infixToPostfix($tokens)
 
     foreach ($tokens as $token) {
         if (is_numeric($token)) {
-            $result .= strval($token);
+            $result .= strval($token) . ' ';
         } elseif ($token == '(') {
             $operatorStack->push($token);
         } elseif ($token == ')') {
             while ($operatorStack->count() > 0 && $operatorStack->top() != '(') {
-                $result .= strval($operatorStack->pop());
+                $result .= strval($operatorStack->pop()) . ' ';
             }
             if ($operatorStack->count() > 0 && $operatorStack->top() != '(') {
                 return "Syntax error, Invalid expression";
@@ -66,20 +66,21 @@ function infixToPostfix($tokens)
             }
         } else {
             while ($operatorStack->count() > 0 && precedence($token) <= precedence($operatorStack->top())) {
-                $result .= strval($operatorStack->pop());
+                $result .= strval($operatorStack->pop()) . ' ';
             }
             $operatorStack->push($token);
         }
     }
 
     while ($operatorStack->count() > 0) {
-        $result .= strval($operatorStack->pop());
+        $result .= strval($operatorStack->pop()) . ' ';
     }
     return $result;
 }
 
 $postfix = infixToPostfix($tokens);
 
+print_r($postfix);
 
 function tokenize($string)
 {
