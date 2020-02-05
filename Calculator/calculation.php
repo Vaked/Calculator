@@ -33,18 +33,6 @@ function isOperator($token)
     endswitch;
 }
 
-function calculate($tokens)
-{
-
-    $firstNumber = $tokens[0];
-    $operator = $tokens[1];
-    $secondNumber = $tokens[2];
-
-    $result = applyOperation($firstNumber, $operator, $secondNumber);
-
-    return $result;
-}
-
 function infixToPostfix($tokens)
 {
     $result = "";
@@ -80,8 +68,30 @@ function infixToPostfix($tokens)
 
 $postfix = tokenize(infixToPostfix($tokens));
 
-print_r($postfix);
+function evaluatePostfix($postfix)
+{
+    $firstOperand = 0;
+    $secondOperand = 0;
+    $result = 0;
+    $stack = new SplStack();
 
+
+    foreach ($postfix as $token) {
+        if (isOperator($token)) {
+            $secondOperand = $stack->pop();
+            $firstOperand = $stack->pop();
+            $result = applyOperation($firstOperand, $token, $secondOperand);
+            $stack->push($result);
+        } elseif (is_numeric($token)) {
+            $stack->push($token);
+        }
+    }
+    return $result;
+}
+
+$evaluatedExpression = evaluatePostfix($postfix);
+
+print_r($evaluatedExpression);
 
 function tokenize($string)
 {

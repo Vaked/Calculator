@@ -47,5 +47,4 @@ class Stack
     {
         return count($this->stack);
     }
-    
 }
