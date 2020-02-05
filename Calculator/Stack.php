@@ -42,4 +42,9 @@ class Stack
     {
         return empty($this->stack);
     }
+
+    public function count()
+    {
+        return count($this->stack);
+    }
 }
