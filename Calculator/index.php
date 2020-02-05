@@ -1,13 +1,12 @@
 <?php
 
 require_once("calculation.php");
-if(isset($_POST)){
+if (isset($_POST)) {
     $postfix = infixToPostfix($tokens);
     $evaluatedExpression = evaluatePostfix($postfix);
 }
 
 ?>
-
 
 <!DOCTYPE html>
 <html>

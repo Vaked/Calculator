@@ -1,10 +1,8 @@
 <?php
 
 require_once("index.php");
-require_once("Stack.php");
 
 $expression = $_POST['expression'];
-
 
 if (!checkParenthesis($expression)) {
     echo ('Syntax error, brackets are incorrect');
@@ -12,27 +10,6 @@ if (!checkParenthesis($expression)) {
 }
 
 $tokens = tokenize($expression);
-
-function isOperator($token)
-{
-    switch ($token):
-        case '+':
-            return true;
-            break;
-        case '-':
-            return true;
-            break;
-        case '*':
-            return true;
-            break;
-        case '/':
-            return true;
-            break;
-        case '%':
-        default:
-            return false;
-    endswitch;
-}
 
 function infixToPostfix($tokens)
 {
@@ -88,6 +65,27 @@ function evaluatePostfix($postfix)
     return $result;
 }
 
+function isOperator($token)
+{
+    switch ($token):
+        case '+':
+            return true;
+            break;
+        case '-':
+            return true;
+            break;
+        case '*':
+            return true;
+            break;
+        case '/':
+            return true;
+            break;
+        case '%':
+            return true;
+        default:
+            return false;
+    endswitch;
+}
 
 function tokenize($string)
 {
@@ -128,7 +126,7 @@ function applyOperation($firstNumber, $operator, $secondNumber)
 function checkParenthesis($expression)
 {
     $length = strlen($expression);
-    $stack = new Stack();
+    $stack = new SplStack();
     $areBracketsCorrect = true;
 
     for ($i = 0; $i < $length; $i++) {
@@ -153,4 +151,3 @@ function checkParenthesis($expression)
 
     return $areBracketsCorrect;
 };
-
