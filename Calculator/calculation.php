@@ -45,7 +45,7 @@ function calculate($tokens)
     return $result;
 }
 
-function infixToPrefix($tokens)
+function infixToPostfix($tokens)
 {
     $result = "";
     $operatorStack = new SplStack();
@@ -78,15 +78,7 @@ function infixToPrefix($tokens)
     return $result;
 }
 
-$prefix = infixToPrefix($tokens);
-
-function calculatePostfix($tokens)
-{
-    foreach($tokens as $token)
-    {
-        
-    }
-}
+$postfix = infixToPostfix($tokens);
 
 function tokenize($string)
 {
