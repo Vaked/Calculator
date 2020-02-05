@@ -20,6 +20,8 @@ require_once("calculation.php");
 
             <div id="main">
 
+        <div id="main">
+           
                 <input type="text" name="expression" id="result">
                 <div id="first-rows">
                     <button type="button" value="c" id="mod" class="btn-style operator opera-bg fall-back">%</button>
@@ -54,10 +56,10 @@ require_once("calculation.php");
                     <button type="button" value="." class="btn btn-style num-bg period fall-back">.</button>
                     <button type="submit" value="=" id="eqn-bg" class="eqn align">=</button>
                 </div>
-
-            </div>
-
+          
         </div>
+
+    </div>
     </form>
     <script charset="UTF-8" type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
 
