@@ -40,7 +40,7 @@ function calculate($tokens)
     $operator = $tokens[1];
     $secondNumber = $tokens[2];
 
-    $result = applyOperator($firstNumber, $operator, $secondNumber);
+    $result = applyOperation($firstNumber, $operator, $secondNumber);
 
     return $result;
 }
@@ -82,6 +82,7 @@ $postfix = tokenize(infixToPostfix($tokens));
 
 print_r($postfix);
 
+
 function tokenize($string)
 {
     $parts = preg_split('((\d+|\+|-|\(|\)|\*|/)|\s+)', $string, null, PREG_SPLIT_NO_EMPTY | PREG_SPLIT_DELIM_CAPTURE);
@@ -100,7 +101,7 @@ function precedence($char)
     }
 }
 
-function applyOperator($firstNumber, $operator, $secondNumber)
+function applyOperation($firstNumber, $operator, $secondNumber)
 {
     switch ($operator):
         case '+':
