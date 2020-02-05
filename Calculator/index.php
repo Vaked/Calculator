@@ -1,14 +1,6 @@
 <?php
 
-$expression = $_POST['expression'];
-
-function expressionCheckRegex($expression)
-{
-    $parts = preg_split('((\d+|\+|-|\(|\)|\*|/)|\s+)',$expression, null, PREG_SPLIT_NO_EMPTY | PREG_SPLIT_DELIM_CAPTURE);
-    $parts = array_map('trim',$parts);
-    return $parts;
-}
-echo $expression;
+require_once("calculation.php");
 
 ?>
 
@@ -18,13 +10,15 @@ echo $expression;
 
 <head>
     <title>Calculator</title>
-    <link rel="stylesheet" href="/Calculator/styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-<form method="post">
-    <div id="background">
-        <!-- Main background -->
+    <form action="" method="post">
+        <div id="background">
+            <!-- Main background -->
+
+            <div id="main">
 
         <div id="main">
            
@@ -67,9 +61,9 @@ echo $expression;
 
     </div>
     </form>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
 
-    <script src="/Calculator/scripts/scripts.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="scripts/scripts.js"></script>
 
 </body>
 

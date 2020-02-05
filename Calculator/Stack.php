@@ -33,11 +33,13 @@ class Stack
         }
     }
 
-    public function top() {
+    public function top()
+    {
         return current($this->stack);
     }
 
-    public function isEmpty() {
+    public function isEmpty()
+    {
         return empty($this->stack);
     }
 }
