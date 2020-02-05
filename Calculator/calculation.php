@@ -67,10 +67,6 @@ function infixToPostfix($tokens)
     return $result;
 }
 
-$postfix = infixToPostfix($tokens);
-
-print_r(infixToPostfix($tokens));
-
 function evaluatePostfix($postfix)
 {
     $firstOperand = 0;
@@ -92,10 +88,6 @@ function evaluatePostfix($postfix)
     return $result;
 }
 
-$evaluatedExpression = evaluatePostfix($postfix);
-
-
-print_r($evaluatedExpression);
 
 function tokenize($string)
 {
@@ -161,3 +153,4 @@ function checkParenthesis($expression)
 
     return $areBracketsCorrect;
 };
+
