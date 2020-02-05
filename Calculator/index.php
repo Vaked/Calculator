@@ -24,7 +24,7 @@ require_once("calculation.php");
            
                 <input type="text" name="expression" id="result">
                 <div id="first-rows">
-                    <button type="button" value="c" id="mod" class="btn-style operator opera-bg fall-back">%</button>
+                    <button type="button" value="%" class="btn btn-style operator opera-bg fall-back">%</button>
                     <button type="button" value="(" class="btn btn-style operator opera-bg fall-back">(</button>
                     <button type="button" value=")" class="btn btn-style operator opera-bg fall-back">)</button>
                     <button type="button" value="+" class="btn btn-style opera-bg value align operator">+</button>
@@ -53,7 +53,6 @@ require_once("calculation.php");
 
                 <div class="rows">
                     <button type="button" value="0" class="btn num-bg zero" id="delete">0</button>
-                    <button type="button" value="." class="btn btn-style num-bg period fall-back">.</button>
                     <button type="submit" value="=" id="eqn-bg" class="eqn align">=</button>
                 </div>
           

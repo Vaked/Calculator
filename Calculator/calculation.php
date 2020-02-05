@@ -28,6 +28,7 @@ function isOperator($token)
         case '/':
             return true;
             break;
+        case '%':
         default:
             return false;
     endswitch;
@@ -35,17 +36,17 @@ function isOperator($token)
 
 function infixToPostfix($tokens)
 {
-    $result = "";
+    $result = [];
     $operatorStack = new SplStack();
 
     foreach ($tokens as $token) {
         if (is_numeric($token)) {
-            $result .= strval($token) . ' ';
+            $result[] = $token;
         } elseif ($token == '(') {
             $operatorStack->push($token);
         } elseif ($token == ')') {
             while ($operatorStack->count() > 0 && $operatorStack->top() != '(') {
-                $result .= strval($operatorStack->pop()) . ' ';
+                $result[] = $operatorStack->pop();
             }
             if ($operatorStack->count() > 0 && $operatorStack->top() != '(') {
                 return "Syntax error, Invalid expression";
@@ -54,19 +55,21 @@ function infixToPostfix($tokens)
             }
         } else {
             while ($operatorStack->count() > 0 && precedence($token) <= precedence($operatorStack->top())) {
-                $result .= strval($operatorStack->pop()) . ' ';
+                $result[] = $operatorStack->pop();
             }
             $operatorStack->push($token);
         }
     }
 
     while ($operatorStack->count() > 0) {
-        $result .= strval($operatorStack->pop()) . ' ';
+        $result[] = $operatorStack->pop();
     }
     return $result;
 }
 
-$postfix = tokenize(infixToPostfix($tokens));
+$postfix = infixToPostfix($tokens);
+
+print_r(infixToPostfix($tokens));
 
 function evaluatePostfix($postfix)
 {
@@ -91,6 +94,7 @@ function evaluatePostfix($postfix)
 
 $evaluatedExpression = evaluatePostfix($postfix);
 
+
 print_r($evaluatedExpression);
 
 function tokenize($string)
@@ -104,7 +108,7 @@ function precedence($char)
 {
     if ($char == '+' || $char == "-") {
         return 1;
-    } elseif ($char == '*' || $char == "/") {
+    } elseif ($char == '*' || $char == "/" || $char == '%') {
         return 2;
     } else {
         return 0;
