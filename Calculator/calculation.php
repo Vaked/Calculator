@@ -93,16 +93,16 @@ function applyOperation($firstNumber, $operator, $secondNumber)
     switch ($operator):
         case '+':
             return $firstNumber + $secondNumber;
-            break;
+            
         case '-':
             return $firstNumber - $secondNumber;
-            break;
+
         case '*':
             return $firstNumber * $secondNumber;
-            break;
+
         case '/':
             return $firstNumber / $secondNumber;
-            break;
+
     endswitch;
 }
 
