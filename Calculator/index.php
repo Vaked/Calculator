@@ -32,7 +32,7 @@ if (isset($_POST['expression'])) {
 
                 <div id="main">
 
-                    <input type="text" value="<?php echo (!empty($result)) ? $result : ""; ?>" name="expression" id="result">
+                    <input type="text" value="<?php echo (!empty($result)) ? $result : "0"; ?>" name="expression" id="result">
                     <div id="first-rows">
                         <button type="button" value="%" class="btn btn-style operator opera-bg fall-back">%</button>
                         <button type="button" value="(" class="btn btn-style operator opera-bg fall-back">(</button>
