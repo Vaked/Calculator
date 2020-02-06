@@ -2,9 +2,10 @@
 
 require_once("calculation.php");
 
-$expression = $_POST['expression'];
-
 if (isset($_POST)) {
+
+    $expression = $_POST['expression'];
+
     if (!Calculator::checkParenthesis($expression)) {
         echo ('Syntax error, brackets are incorrect');
         exit;
