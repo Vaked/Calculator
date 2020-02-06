@@ -1,11 +1,17 @@
 <?php
 
 require_once("calculation.php");
-if (isset($_POST)) {
-    $postfix = infixToPostfix($tokens);
-    $evaluatedExpression = evaluatePostfix($postfix);
-}
 
+$expression = $_POST['expression'];
+
+if (isset($_POST)) {
+    if (!Calculator::checkParenthesis($expression)) {
+        echo ('Syntax error, brackets are incorrect');
+        exit;
+    } else {
+        $result = Calculator::evaluatePostFix($expression);
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +31,7 @@ if (isset($_POST)) {
 
                 <div id="main">
 
-                    <input type="text" value="<?php echo (!empty($evaluatedExpression)) ? $evaluatedExpression : ""; ?>" name="expression" id="result">
+                    <input type="text" value="<?php echo (!empty($result)) ? $result : ""; ?>" name="expression" id="result">
                     <div id="first-rows">
                         <button type="button" value="%" class="btn btn-style operator opera-bg fall-back">%</button>
                         <button type="button" value="(" class="btn btn-style operator opera-bg fall-back">(</button>
