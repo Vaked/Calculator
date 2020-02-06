@@ -67,24 +67,7 @@ function evaluatePostfix($postfix)
 
 function isOperator($token)
 {
-    switch ($token):
-        case '+':
-            return true;
-            break;
-        case '-':
-            return true;
-            break;
-        case '*':
-            return true;
-            break;
-        case '/':
-            return true;
-            break;
-        case '%':
-            return true;
-        default:
-            return false;
-    endswitch;
+    return in_array($token, ['-', '+', '*', '/', '%']);
 }
 
 function tokenize($string)
