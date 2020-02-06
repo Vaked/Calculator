@@ -2,7 +2,7 @@
 
 require_once("calculation.php");
 
-if (isset($_POST)) {
+if (isset($_POST['expression'])) {
 
     $expression = $_POST['expression'];
 
