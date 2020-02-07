@@ -6,6 +6,8 @@ if (isset($_POST['expression'])) {
 
     $expression = $_POST['expression'];
 
+    $result = 0; 
+
     if (!Calculator::checkParenthesis($expression)) {
         echo ('Syntax error, brackets are incorrect');
         exit;
