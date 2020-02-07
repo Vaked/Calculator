@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/Calculator":{"guestpath":"/var/www/Calculator","hostpath":"C:/Calc/Calculator","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Calc","disabled":false,"__vagrantfile":true}}}
