@@ -1,4 +1,4 @@
-Calculator/error.log
-Calculator/requests.log
 Vagrantfile
-Calculator/.vagrant/
+error.log
+requests.log
+.vagrant

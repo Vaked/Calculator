@@ -22,7 +22,7 @@ if (isset($_POST['expression'])) {
 
 <head>
     <title>Calculator</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -72,9 +72,9 @@ if (isset($_POST['expression'])) {
 
             </div>
     </form>
-    <script charset="UTF-8" type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 
-    <script charset="UTF-8" type="text/javascript" src="scripts/scripts.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="js/scripts.js"></script>
 
 </body>
 
